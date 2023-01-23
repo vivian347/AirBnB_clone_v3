@@ -8,7 +8,7 @@ from models.state import State
 
 
 @app_views.route('/states', methods=['GET'], strict_slashes=False)
-def get_state():
+def get_states():
     """ get info for all states """
     states = []
     for state in storage.all("State").values():
