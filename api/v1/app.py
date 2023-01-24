@@ -18,7 +18,7 @@ def teardown(exceptions):
 
 @app.errorhandler(404)
 def page_not_found(err):
-    return make_response(jsonify({'error' : 'Not found'}), 404)
+    return make_response(jsonify({'error': 'Not found'}), 404)
 
 
 if __name__ == ('__main__'):
