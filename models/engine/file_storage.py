@@ -87,4 +87,3 @@ class FileStorage:
         elif cls is None:
             total = len(self.__objects)
         return total
-
