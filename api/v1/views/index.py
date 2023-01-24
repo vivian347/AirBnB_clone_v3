@@ -28,5 +28,5 @@ def stats():
         ret_dict[key] = storage.count(val)
     return jsonify(ret_dict)
 
-if __name__ == "__main__":
-    pass
+#if __name__ == "__main__":
+ #   pass
