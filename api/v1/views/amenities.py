@@ -15,6 +15,7 @@ def get_amenities():
         amenities.append(amenity.to_dict())
     return jsonify(amenities)
 
+
 @app_views.route('/amenities/<string:amenity_id>', methods=['GET'],
                  strict_slashes=False)
 def get_amenity(amenity_id):
